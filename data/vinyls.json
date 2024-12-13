@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "dateAdded": "2017-01-01",
+        "condition": "Mint (M)",
+        "comments": [],
+        "price": 20,
+        "stock": 4,
+        "albumInfo": {
+            "date": "2017-01-01",
+            "title": "Appetite for Destruction",
+            "artists": ["Guns n' Roses"],
+            "genres": ["rock"],
+            "coverImage": ""
+        }
+    },
+    {
+        "id": "2",
+        "dateAdded": "2017-01-01",
+        "condition": "Very Good Plus (VG+)",
+        "comments": [],
+        "price": 20,
+        "stock": 4,
+        "albumInfo": {
+            "date": "2017-01-01",
+            "title": "KICK",
+            "artists": ["INXS"],
+            "genres": ["rock", "pop"],
+            "coverImage": ""
+        }
+    },
+    {
+        "id": "3",
+        "dateAdded": "2017-01-01",
+        "condition": "Fair (F)",
+        "comments": [],
+        "price": 30,
+        "stock": 10,
+        "albumInfo": {
+            "date": "2017-01-01",
+            "title": "Nevermind",
+            "artists": ["Nirvana"],
+            "genres": ["rock"],
+            "coverImage": ""
+        }
+    }
+]

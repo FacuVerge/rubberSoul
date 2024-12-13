@@ -1,25 +1,29 @@
 {
-	"name": "rubber-soul-records",
+	"name": "rubbersoul",
 	"version": "1.0.0",
-	"description": "",
+	"description": "RubberSoul Records backend. Vinyl Store Project",
 	"main": "index.js",
 	"scripts": {
 		"tsc": "tsc",
-		"dev": "ts-node-dev index.ts",    
+		"test": "test",
+		"dev": "ts-node-dev index.ts",
 		"lint": "eslint --ext .ts .",
 		"start": "node build/index.js"
 	},
 	"author": "FacuVerge",
 	"license": "ISC",
 	"devDependencies": {
+		"@types/cors": "^2.8.17",
 		"@types/express": "^5.0.0",
-		"@typescript-eslint/eslint-plugin": "^8.14.0",
-		"@typescript-eslint/parser": "^8.14.0",
-		"eslint": "^9.15.0",
+		"@typescript-eslint/eslint-plugin": "^8.18.0",
+		"@typescript-eslint/parser": "^8.18.0",
+		"eslint": "^9.16.0",
 		"ts-node-dev": "^2.0.0",
-		"typescript": "^5.6.3"
+		"typescript": "^5.7.2"
 	},
 	"dependencies": {
-		"express": "^4.21.1"
+		"cors": "^2.8.5",
+		"express": "^4.21.2",
+		"uuid": "^11.0.3"
 	}
 }
